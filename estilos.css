@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+}
+
+.direcaoEsq{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tudo{
+    border: 3px solid grey;
+    background-color: black;
+}
+
+.facebook{
+    color: white;
+}
+
+.lupa{
+    fill: white;
+    
+}
+
+.botaoLupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+}
+
+.botaoLupa svg{
+    background-color: grey;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.messengerBotao{
+    fill: white;
+    width: 20px;
+}
+
+.sinoBotao{
+    fill: white;
+    width: 20px;
+}
+
+.imagemCircularBotao{
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+}
+
+.tudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.direcaoDir{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.sino{
+    position: relative;
+}
+.sino .numero{
+    position: absolute;
+}
+
+.numero{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}
